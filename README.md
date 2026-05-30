@@ -33,6 +33,7 @@ Validation Accuracy: 92%
 |--dataset/
 |--Medical-Image-Classification.ipynb
 |--README.md
+|--requirements.txt
 ```
 # 🚀 Future Enhancements
 Train other advanced models like **VGG16** or **ResNet50** (Transfer learning) for better accuracy.
