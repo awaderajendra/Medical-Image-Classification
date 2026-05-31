@@ -26,7 +26,7 @@ diagnosis by identifying anomalies across 2 distinct classes.
 # 📉 Results & Performance
 The Convolutional Neural Network (CNN) achieved the following results:
 Training Accuracy: 95%
-Validation Accuracy: 92%
+Validation Accuracy: 97%
 
 # 📁 Project Structure
 ```text
@@ -38,6 +38,24 @@ medical-image-classification/
 |--train_model.py
 |--README.md
 |--requirements.txt
+```
+
+## 🚀 How to run the project
+Follow these steps to run this project on your local computer terminal:
+
+### 1. Install Required Libraries 
+```bash
+pip install -r requirement.txt
+```
+
+### 2. Train the machine learning model
+```bash
+python train_model.py
+```
+
+### 3. Start the web application server
+```bash
+python app.py
 ```
 # 🚀 Future Enhancements
 Train other advanced models like **VGG16** or **ResNet50** (Transfer learning) for better accuracy.
