@@ -7,8 +7,8 @@ diagnosis by identifying anomalies across 2 distinct classes.
 
 ## 📊 Dataset Details
 **Total Images:** 6,056 MRI scans
-**Classes:** 2 (Cancerous /Non-Cancerous)
-**Image Dimensions:** 128 into 128 pixels (RGB)
+**Classes:** 4 (Multi-class classification)
+**Image Dimensions:** 128 into 128 pixels 
 
 ## 🧬 Model Architecture
 * **Input Layer:** `(128, 128, 3)`
@@ -16,12 +16,12 @@ diagnosis by identifying anomalies across 2 distinct classes.
 * **Pooling Layer:** `MaxPooling2D` with (2,2) pool size
 * **Flatten Layer:** Prepares features for the Dense layer
 * **Dense Hidden Layer:** 128 units with ReLU activation
-* **Output Layer:** 2 Units with Softmax activation (for categorical classification)
+* **Output Layer:** 4 Units with Softmax activation (for categorical classification)
 
 ## ⚙️Technologies Used
 * Python
 * Tensorflow & Keras (Deep Learning)
-* Jupyter Notebook
+* Flask (Web API)
 
 # 📉 Results & Performance
 The Convolutional Neural Network (CNN) achieved the following results:
@@ -30,8 +30,12 @@ Validation Accuracy: 92%
 
 # 📁 Project Structure
 ```text
-|--dataset/
-|--Medical-Image-Classification.ipynb
+medical-image-classification/
+|--Brain_Cancer raw MRI data/
+   |--Brain_cancer/
+|--.gitignore
+|--app.py
+|--train_model.py
 |--README.md
 |--requirements.txt
 ```
